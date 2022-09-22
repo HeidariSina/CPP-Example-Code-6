@@ -1,21 +1,3 @@
-# Advanced Programming - HW1
-<p  align="center"> <b>Homework 1 - Spring 2022 Semester <br> Deadline: Sunday Esfand 1st - 11:59 pm</b> </p>
-
-## Outline
-
-In this homework we are going to implement a **Linear Algebra** library for c++. 
-In this library we are going to implement different functions to allow our users to easilly work and manipulate different **matrices**.
-We will be implementing all our functions in `hw1.cpp` and `hw1.h`. remember you should put all declarations in the `.h` and all the implementations in the `.cpp` file.
-In order to have a matrix in c++ we need a 2D vector.  We use the following line in order to reduce our syntax. 
-```cpp
-using Matrix = std::vector<std::vector<double>>;
-```
-From now on we can use the keyword **Matrix** instead of defining the 2D vector everytime.
-So, go ahead and put the above line in your code.
-
-**note.** Define all your functions in a namespace called `algebra`.
-
-
 # Functions
 Now, lets discuss each functions and see how they should be implemented. 
 
